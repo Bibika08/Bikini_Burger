@@ -1,4 +1,4 @@
-import { BurgerState } from '../types/ingredient';
+import type { BurgerState } from '../types/ingredient';
 import { INGREDIENTS, BASE_BURGER_PRICE } from '../constants/ingredients';
 
 // Функция для расчета общей стоимости бургера

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import { INGREDIENTS } from './constants/ingredients';
-import { BurgerState } from './types/ingredient';
+import type { BurgerState } from './types/ingredient';
 import { IngredientItem } from './components/IngredientItem';
 import { Burger } from './components/Burger';
 import { Typography } from '@mui/material';
