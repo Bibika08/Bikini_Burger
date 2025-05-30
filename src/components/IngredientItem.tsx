@@ -1,5 +1,5 @@
 import React from 'react';
-import { Ingredient } from '../types/ingredient';
+import type { Ingredient } from '../types/ingredient';
 import { Checkbox, Typography, Button } from '@mui/material';
 
 interface IngredientItemProps {

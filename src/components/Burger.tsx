@@ -1,5 +1,5 @@
 import React from 'react';
-import { BurgerState } from '../types/ingredient';
+import type { BurgerState } from '../types/ingredient';
 import { INGREDIENTS } from '../constants/ingredients';
 import { calculateTotalPrice } from '../utils/calculatePrice';
 import { Typography } from '@mui/material';

@@ -1,4 +1,4 @@
-import { Ingredient } from '../types/ingredient';
+import type { Ingredient } from '../types/ingredient';
 
 // Импортируем изображения (нужно добавить в папку assets)
 import meatImage from '../assets/meat.jpg';
